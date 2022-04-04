@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a vaiable called name and set its value to be 'Dane'
+// we then check if the name we created is 'Mary', if it was 'Mary' we would log to the console 'Hi, Mary!'
+// Since the variable is not 'Mary' we instead move to the the next phrase which will apply to everyone except 'Mary'
+//This other phrase will log to the console 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named secret and do not give it a value
+// We create another variable named code and give it the value of 123
+// We check if the value assigned to code is equal to 123, if it is then we change the value of secret to be 'super' and we double the value of code to 246.
+//We then check if the value of code is over 250, as it is not the value of secret stays 'super' and we can log 'super' to the console.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We define three variables 1. isStudent is true 2. age is 34 3. zip is 55407
+// We then check if this is indeed a student AND if that students zip is higher than 80000,
+// it is not so we move on to the next check of if they are a student OR they are under the age of 30, also not true, moving onto the next check which does hold true.
+//This will log to the console 'Welcome to Prime!
 
 //CODE
 /*
