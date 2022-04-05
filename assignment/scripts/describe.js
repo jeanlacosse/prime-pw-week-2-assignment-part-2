@@ -130,6 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX: instructions say colorOne is 'blue' and colorTwo is 'red'. These need to be switched around as variable values.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -144,6 +145,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX: the variable time should be a let variable and not a const as the time could change
 let temp = 40;
 const time = 4;
 
@@ -159,6 +161,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX: The syntax is incorrect and the console.log is reversed. if statement should be written as:
+ if(age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry')
+}
 
 if(minAge <= age) {
   console.log('no entry');
