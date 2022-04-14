@@ -130,7 +130,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX: instructions say colorOne is 'blue' and colorTwo is 'red'. These need to be switched around as variable values.
+// FIX: instructions say colorOne is 'blue' and colorTwo is 'red'. These need to be switched around as variable values, we then need to also add colorTwo to the if statement to also make it 'purple'.
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -145,7 +146,8 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-// FIX: the variable time should be a let variable and not a const as the time could change
+// FIX: the variable time should be a let variable and not a const as the time could change. We are also checking that both statements are true so we need an && instead of an 'or' ||.
+
 let temp = 40;
 const time = 4;
 
